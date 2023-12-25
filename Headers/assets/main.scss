@@ -1,0 +1,233 @@
+.gmail-white-theme {
+    background-color: white;
+  }
+  header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 72px;
+    border: 0;
+    font-family: inherit;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    position: absolute;
+    top: 57px;
+    left: 64px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .gmail-logo {
+    position: relative;
+    top: 50px;
+    right: 190px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .search-bar {
+    display: flex;
+    width: 749px;
+    height: 48px;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--Gray-6, #f2f2f2);
+    padding: 8px 24px 8px 16px;
+  }
+  
+  $color_1: var(--Blue-Gray-400, #8a9ca7);
+  
+  .search-bar {
+    > i {
+      font-size: 20px;
+      color: $color_1;
+    }
+  }
+  
+  .search-bar {
+    > input {
+      color: $color_1;
+      flex: 1;
+      height: 45px;
+      border: none;
+      outline: none;
+      font-size: 20px;
+      padding-left: 16px;
+      background: transparent;
+    }
+  }
+  $font-family_1: Arial, Helvetica, sans-serif;
+  
+  .search-bar {
+    ::-webkit-input-placeholder {
+      color: $color_1;
+      font-family: $font-family_1;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%;
+    }
+  }
+  
+  .avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 0.5px solid var(--Blue-Gray-200, #c6cdd5);
+  }
+  .avatar > img {
+    width: 100px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .vector {
+    position: relative;
+    top: 0px;
+    right: 100px;
+    width: 13px;
+    height: 7px;
+    flex-shrink: 0;
+  }
+  
+  .icons-container {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    left: 800px;
+    top: -50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  .gmail-black-theme {
+      background-color: #151D20;
+      top: 10px;
+    }
+    header {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+    
+    button {
+      display: grid;
+      place-items: center;
+      width: 40px;
+      height: 72px;
+      border: 0;
+      font-family: inherit;
+      background: transparent;
+      cursor: pointer;
+    }
+    
+    .hamburger {
+      position: absolute;
+      top: 57px;
+      left: 64px;
+      width: 24px;
+      height: 24px;
+    }
+    
+    .gmail-logo {
+      position: relative;
+      top: 50px;
+      right: 190px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    
+    .search-bar {
+      display: flex;
+      width: 749px;
+      height: 48px;
+      align-items: center;
+      border-radius: 8px;
+      background: var(--Gray-6, #f2f2f2);
+      padding: 8px 24px 8px 16px;
+    }
+    
+    
+    .search-bar {
+      > i {
+        font-size: 20px;
+        color: $color_1;
+      }
+    }
+    
+    .search-bar {
+      > input {
+        flex: 1;
+        height: 45px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        padding-left: 16px;
+        background: transparent;
+      }
+    }
+    $font-family_1: Arial, Helvetica, sans-serif;
+    
+    .search-bar {
+      ::-webkit-input-placeholder {
+        color: $color_1;
+        font-family: $font-family_1;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+      }
+    }
+    
+    .avatar {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      border: 0.5px solid var(--Blue-Gray-200, #c6cdd5);
+    }
+    .avatar > img {
+      width: 100px;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+    }
+    
+    .vector {
+      position: relative;
+      top: 0px;
+      right: 60px;
+      width: 13px;
+      height: 7px;
+      flex-shrink: 0;
+    }
+    
+    .icons-container {
+      position: relative;
+      width: 32px;
+      height: 32px;
+      left: 800px;
+      top: -50px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+    }
